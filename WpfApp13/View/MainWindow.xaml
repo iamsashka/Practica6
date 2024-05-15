@@ -20,7 +20,8 @@
             </Grid.ColumnDefinitions>
             <Button Grid.Column="0" Name="BackBtn" Content="назад" Command="{Binding Back}" Click="BackBtn_Click"/>
             <Button Grid.Column="2" Name="NextBtn" Content="вперед" Command="{Binding Next}" Click="NextBtn_Click" />
-            <TextBlock x:Name="date_txtblc" Text="{Binding kakayaData, Mode=TwoWay}" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Center"/>
+            <TextBlock x:Name="KakayaData" Text="{Binding KakayaData}" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Center"/>
+            
         </Grid>
     </Grid>
 </Window>

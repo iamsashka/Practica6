@@ -10,6 +10,7 @@ using WpfApp13.Model;
 using System.Windows.Media.Imaging;
 using static System.Net.Mime.MediaTypeNames;
 using WpfApp13;
+using WpfApp13.View;
 
 namespace WpfApp13.ViewModel
 {

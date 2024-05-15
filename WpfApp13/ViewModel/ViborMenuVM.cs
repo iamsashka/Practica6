@@ -14,7 +14,7 @@ using System.ComponentModel;
 using System.Windows.Navigation;
 using System.Data;
 using System.Windows.Controls;
-
+using WpfApp13.View;
 
 namespace WpfApp13.ViewModel
 {
@@ -366,8 +366,8 @@ namespace WpfApp13.ViewModel
         }
         public void Refresh()
         {
-            Main Main = new Main();
-            ContentXZ = Main;
+            Main main = new Main();
+            ContentXZ = main;
         }
 
     }

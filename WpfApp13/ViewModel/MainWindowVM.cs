@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using WpfApp13.View;
 
 namespace WpfApp13.ViewModel
 {
@@ -41,8 +42,8 @@ namespace WpfApp13.ViewModel
         public void Refresh()
         {
             KakayaData = date.ToString("Y");
-            Main Main = new Main(date);
-            ContentXZ = Main;
+            Main main = new Main(date);
+            ContentXZ = main;
         }
 
         public void NextClick()
